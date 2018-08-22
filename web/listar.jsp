@@ -16,9 +16,10 @@
     </head>
     <body>
         <h1>Lista de Alunos</h1>
-       <%=fac.getListClientes()%>
+        <%=fac.getListClientes()%>
 
-
+        [<a href="form_cadastro.jsp"> Cadastrar Aluno </a>] 
+        [<a href="index.html">      Home </a>]
 
 
 

@@ -22,9 +22,11 @@
                 Idade: <input type="number" name="idade" id="idade" placeholder="Idade"/>
                 CPF: <input type="text" name="cpf" id="cpf" placeholder="CPF" patern
                             pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"title="Digite o CPF no formato nnn.nnn.nnn-nn"/>
-                <input type="submit" value="Cadastrar Cliente" class="btn btn-primary"/>  <input type="reset" value="Limpar campos" class="btn btn-warning"/>
-            <div/>
-            
+                <input type="submit" value="Cadastrar Aluno" class="btn btn-primary"/>  <input type="reset" value="Limpar campos" class="btn btn-warning"/>
+                <div/>
+                [<a href="listar.jsp"> Listar Alunos </a>] 
+                [<a href="index.html">   Home </a>]
+
         </form>
 
 
@@ -41,8 +43,8 @@
             }
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-	</script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+        </script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>
